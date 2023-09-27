@@ -503,7 +503,6 @@
 //     console.log("Not a valid day!");
 // }
 
-
 // ////////////////////////////////////
 // /* 22 - Statements and Expressions */
 // // *Expressions: is a piece of code that produces a value
@@ -516,12 +515,11 @@
 
 // // in Template literals we can only write expressions not statements
 // const me = 'Jonas';
-// console.log(`I'm ${2037 - 1991} years old ${me}.`); // =>it produce a value:  I'm 46 years old Jonas. 
-
+// console.log(`I'm ${2037 - 1991} years old ${me}.`); // =>it produce a value:  I'm 46 years old Jonas.
 
 // ////////////////////////////////////
 // /* 23 - The Conditional (Ternary) Operator */
-// // ternary operator is like a short hand if / else statement    
+// // ternary operator is like a short hand if / else statement
 // // ternary operator is an expression and it produce a value because all the operator produce a value
 // const age = 15;
 // // age >= 18 ? console.log('I like to drink Soda 🥤') : console.log('I like to drink water 💧');
@@ -540,14 +538,14 @@
 // //we can use ternary operator inside template literals because it's an expression
 // console.log(`I like to drink ${age >= 18 ? 'Soda 🥤' : 'water 💧'}`)
 
-
 ////////////////////////////////////
 // 24 -Coding Challenge #4
 const bill = 275;
-const tip= bill >= 50 && bill <= 300 ? (bill * 15)/100 : (bill * 20) / 100;
+const tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : (bill * 20) / 100;
 console.log(tip);
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
-
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`,
+);
 
 ////////////////////////////////////
 /* 25 - JavaScript Releases: ES5, ES6+ and ESNext */

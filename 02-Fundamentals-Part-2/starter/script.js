@@ -421,9 +421,6 @@
 
 // // Arrays is also an object and they have methods too
 
-
-
-
 // //////////////////////////////
 // /* 15- Coding Challenge #3 */
 
@@ -451,7 +448,6 @@
 //     ? `${john.fullName}'s BMI (${john.calcBMI()}) is higher than ${mark.fullName}'s (${mark.calcBMI()})!`
 //     : `${mark.fullName}'s BMI (${mark.calcBMI()}) is higher than ${john.fullName}'s (${john.calcBMI()})!`
 // );
-
 
 // //////////////////////////////
 // /* 16- Iteration: The for Loop */
@@ -481,8 +477,6 @@
 //     console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 // }
 
-
-
 // //////////////////////////////
 // /* 17- Looping Arrays, Breaking and Continuing */
 // const jonas = [
@@ -502,7 +496,6 @@
 
 // // create new array to store the typeof the elements in jonas array
 // const types = []; // empty array
-
 
 // for(let i = 0; i < jonas.length; i++) {
 //     // Reading from jonas array
@@ -538,7 +531,6 @@
 //     console.log(jonas[i], typeof jonas[i]);
 // }
 
-
 // //////////////////////////////
 // /* 18- Looping Backwards and Loops in Loops */
 // const jonas = [
@@ -563,8 +555,6 @@
 //         console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️‍♀️`);
 //     }
 // }
-
-
 
 // //////////////////////////////
 // /* 19- The while Loop */
@@ -598,9 +588,6 @@
 //     if(dice === 6) console.log('Loop is about to end...');
 // }
 
-
-
-
 // //////////////////////////////
 // /* 20- Coding Challenge #4 */
 // const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86 , 52
@@ -624,16 +611,9 @@
 //         // sum = arr[i] + sum;
 //         sum += arr[i];
 //     }
-//      return sum / (arr.length); 
+//      return sum / (arr.length);
 // }
 
 // console.log(calcAverage([2, 3, 7]));
 // console.log(calcAverage(totals));
 // console.log(calcAverage(tips));
-
-
-
-
-
-
-
